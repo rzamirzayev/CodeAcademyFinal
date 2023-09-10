@@ -73,3 +73,5 @@ C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\runtimes\win-arm\
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\MediatR.dll
+C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\MediatR.Contracts.dll

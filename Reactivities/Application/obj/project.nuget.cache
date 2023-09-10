@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "v5ri3y4s1DZ6JeU6HkwotQoAXUxWLs23P5wc29HlQ9NndcP7/Q1cbHzymnrx5YAx/A1ir5VY0FIyueVxudB3lg==",
+  "dgSpecHash": "RJIc4IhGBB0yQGoWS9E3sRAJyKGCYItdKBVwn0Xu3EHeErrBKnJ4pwPUDDsY2slFnJXld+l1PKKnZCE8r2EJZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\demo\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.10\\microsoft.data.sqlite.core.7.0.10.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
