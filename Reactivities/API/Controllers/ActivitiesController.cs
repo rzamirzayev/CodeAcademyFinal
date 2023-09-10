@@ -7,11 +7,6 @@ namespace API.Controllers
 {
     public class ActivitiesController : BaseApiController
     {
-        private readonly IMediator _mediator;
-        public ActivitiesController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
         //api/activities
         [HttpGet]
         public async Task<ActionResult<List<Activity>>> GetActivities()
@@ -36,6 +31,12 @@ namespace API.Controllers
             await Mediator.Send(new Edit.Command { Activity = activity });
             return Ok();
 
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            await Mediator.Send(new Delete.Command { Id = id });
+            return Ok();
         }
 
     }
