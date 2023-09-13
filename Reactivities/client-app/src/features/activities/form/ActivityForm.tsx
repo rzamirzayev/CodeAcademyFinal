@@ -1,15 +1,17 @@
 import { ChangeEvent, useState } from "react";
 import { Button, Form, Segment } from "semantic-ui-react";
-import { Activity } from "../../../app/models/activity";
 import { useStore } from "../../../app/stores/store";
-interface Props {
-  createOrEdit: (activity: Activity) => void;
-  sumbitting: boolean;
-}
+import { observer } from "mobx-react-lite";
 
-export default function ActivityForm({ createOrEdit, sumbitting }: Props) {
+export default observer(function ActivityForm() {
   const { activityStore } = useStore();
-  const { selectedActivity, closeForm } = activityStore;
+  const {
+    selectedActivity,
+    closeForm,
+    createActivity,
+    updateActivity,
+    loading,
+  } = activityStore;
   const initialState = selectedActivity ?? {
     id: "",
     title: "",
@@ -21,7 +23,7 @@ export default function ActivityForm({ createOrEdit, sumbitting }: Props) {
   };
   const [activity, setActivity] = useState(initialState);
   function handleSumbit() {
-    createOrEdit(activity);
+    activity.id ? updateActivity(activity) : createActivity(activity);
   }
   function handleInputChange(
     event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -70,7 +72,7 @@ export default function ActivityForm({ createOrEdit, sumbitting }: Props) {
           onChange={handleInputChange}
         />
         <Button
-          loading={sumbitting}
+          loading={loading}
           floated="right"
           positive
           type="submit"
@@ -85,4 +87,4 @@ export default function ActivityForm({ createOrEdit, sumbitting }: Props) {
       </Form>
     </Segment>
   );
-}
+});
