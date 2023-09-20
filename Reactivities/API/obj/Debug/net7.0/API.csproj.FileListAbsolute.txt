@@ -94,3 +94,5 @@ C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\System.IdentityMo
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Infrastructure.pdb
