@@ -32,3 +32,9 @@ export interface Photo {
   isMain: boolean;
   photos?: Photo[];
 }
+export interface UserActivity {
+  id: string;
+  title: string;
+  category: string;
+  date: Date;
+}

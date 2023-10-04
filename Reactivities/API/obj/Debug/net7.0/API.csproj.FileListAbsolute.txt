@@ -98,3 +98,4 @@ C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Infrastructure.dl
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Infrastructure.pdb
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\CloudinaryDotNet.dll
 C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\demo\Reactivities\API\bin\Debug\net7.0\API.staticwebassets.runtime.json

@@ -9,7 +9,7 @@ export default class UserStore {
   constructor() {
     makeAutoObservable(this);
   }
-  get isLoggenIn() {
+  get isLoggedIn() {
     return !!this.user;
   }
   login = async (creds: UserFormValues) => {
