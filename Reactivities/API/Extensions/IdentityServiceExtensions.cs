@@ -1,11 +1,11 @@
 using System.Text;
 using API.Services;
-using Application.Interfaces;
 using Domain;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 using Persistence;
+using Application.Interfaces;
 
 namespace API.Extensions
 {
