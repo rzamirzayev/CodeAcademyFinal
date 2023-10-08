@@ -2,6 +2,7 @@ import { Button, Container, Menu, Image, Dropdown } from "semantic-ui-react";
 import { Link, NavLink } from "react-router-dom";
 import { useStore } from "../stores/store";
 import { observer } from "mobx-react-lite";
+import "./NavBar.css";
 
 export default observer(function NavBar() {
   const {
@@ -9,8 +10,8 @@ export default observer(function NavBar() {
   } = useStore();
   return (
     <Menu inverted fixed="top">
-      <Container>
-        <Menu.Item as={NavLink} to="/" header>
+      <Container className="navbarContainer">
+        <Menu.Item as={NavLink} to="/" header className="imageNavbar">
           <img
             src="/assets/logo.png"
             alt="logo"

@@ -7,6 +7,7 @@ import { ActivityFormValues } from "../../../app/models/activity";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
+import { v4 as uuid } from "uuid";
 import MyTextInput from "../../../app/common/form/MyTextInput";
 import MyTextArea from "../../../app/common/form/MyTextArea";
 import MySelectInput from "../../../app/common/form/MySelectInput";
@@ -122,6 +123,3 @@ export default observer(function ActivityForm() {
     </Segment>
   );
 });
-function uuid(): string {
-  throw new Error("Function not implemented.");
-}
