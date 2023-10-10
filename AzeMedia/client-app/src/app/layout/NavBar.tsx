@@ -12,14 +12,13 @@ export default observer(function NavBar() {
       <Container className="navbarContainer">
         <Menu.Item as={NavLink} to="/" header className="imageNavbar">
           <img
-            src="/assets/logo.png"
+            src="assets/twitter.png"
             alt="logo"
             style={{ marginRight: "10px" }}
           />
           AzeMedia
         </Menu.Item>
         <Menu.Item as={NavLink} to="/activities" name="Activities" />
-        <Menu.Item as={NavLink} to="/errors" name="Errors" />
         <Menu.Item>
           <Button
             as={NavLink}

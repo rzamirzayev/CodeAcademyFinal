@@ -2,11 +2,16 @@
 /*home page styles*/
 /*end home page styles*/
 body {
+/* background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(183,17,17,1) 71%, rgba(252,70,107,1) 100%); */
+
   background-color: #EAEAEA !important;
 }
 
 .ui.inverted.top.fixed.menu {
-  background-image: linear-gradient(135deg, rgb(24, 42, 111) 0%, rgb(33, 138, 174) 69%, rgb(32, 167, 172) 89%) !important;
+   /* background-image: linear-gradient(135deg, rgb(24, 42, 111) 0%, rgb(33, 138, 174) 69%, rgb(32, 167, 172) 89%) !important; */
+   
+   background-color: #0093E9 !important;
+   background-image: linear-gradient(160deg, #0093E9 100%, #80D0C7 100%) !important;
 }
 
 .react-calendar {
@@ -22,6 +27,9 @@ body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  border-radius: 10px;
+  background-color:white;
+  padding: 20px;
 }
 .react-calendar * {
   -moz-box-sizing: border-box;
@@ -172,7 +180,9 @@ body {
 .masthead {
   display: flex;
   align-items: center;
-  background-image: linear-gradient(135deg, rgb(24, 42, 115) 0%, rgb(33, 138, 174) 69%, rgb(32, 167, 172) 89%) !important;
+  /* background-image: linear-gradient(135deg, rgb(24, 42, 115) 0%, rgb(33, 138, 174) 69%, rgb(32, 167, 172) 89%) !important; */
+  background-color: #0093E9 !important;
+  background-image: linear-gradient(160deg, #0093E9 100%, #80D0C7 100%) !important;
   height: 100vh;
 }
 .masthead .ui.menu .ui.button {
